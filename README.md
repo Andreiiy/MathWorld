@@ -1,2 +1,2 @@
 # MathWorld
-Android application for Android
+Android application for Android using SQLLite data base
