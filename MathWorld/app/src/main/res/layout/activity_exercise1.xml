@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".QuestionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/layout_image"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <ImageView
+                android:id="@+id/img_question"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter" />
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/llQuestion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_question_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                tools:text="What do you choose?" />
+
+            <EditText
+                android:id="@+id/etAnswer1"
+                android:hint="000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:textSize="35dp"
+                android:background="@color/colorWhite"
+                android:inputType="number"/>
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/rlQuestionFraction"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+         >
+
+            <TextView
+                android:id="@+id/tvQuestionDrob11"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestionDrob111"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="14dp"
+                android:text="---"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestionDrob112"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestion1znak"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="77dp"
+                android:layout_marginTop="14dp"
+                android:text="+"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestionDrob12"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+
+            <TextView
+                android:id="@+id/tvQuestionDrob121"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="137dp"
+                android:layout_marginTop="14dp"
+                android:text="---"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestion122"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="14dp"
+                android:text="="
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/etAnswer1Drob"
+                android:hint="000"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="230dp"
+                android:background="@color/colorWhite"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="29dp"
+                android:layout_toEndOf="@+id/etAnswer1Drob"
+                android:text="-------------"
+                android:textColor="@color/colorWhite"
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/etAnswer11"
+                android:hint="000"
+                android:textAlignment="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:background="@color/colorWhite"
+                android:layout_alignTop="@+id/tvQuestionDrob121"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/etAnswer1Drob"
+                android:inputType="number"/>
+
+
+            <EditText
+                android:id="@+id/etAnswer12"
+                android:hint="000"
+                android:layout_width="wrap_content"
+                android:background="@color/colorWhite"
+                android:layout_height="28dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@+id/etAnswer1Drob"
+                android:inputType="number"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llQuestion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_question_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:text="What do you choose?" />
+
+        <EditText
+            android:id="@+id/etAnswer2"
+            android:hint="000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:textSize="35dp"
+            android:background="@color/colorWhite"
+            android:inputType="number"/>
+
+
+    </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/rlQuestionFraction2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+
+            <TextView
+                android:id="@+id/tvQuestionDrob21"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestionDrob211"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="14dp"
+                android:text="---"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestionDrob212"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestion2znak"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="77dp"
+                android:layout_marginTop="14dp"
+                android:text="+"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestionDrob22"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+
+            <TextView
+                android:id="@+id/tvQuestionDrob221"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="137dp"
+                android:layout_marginTop="14dp"
+                android:text="---"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestion222"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="14dp"
+                android:text="="
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/etAnswer2Drob"
+                android:hint="000"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="230dp"
+                android:background="@color/colorWhite"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="29dp"
+                android:layout_toEndOf="@+id/etAnswer2Drob"
+                android:text="-------------"
+                android:textColor="@color/colorWhite"
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/etAnswer21"
+                android:hint="000"
+                android:textAlignment="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:background="@color/colorWhite"
+                android:layout_alignTop="@+id/tvQuestionDrob221"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/etAnswer2Drob"
+                android:inputType="number"/>
+
+
+            <EditText
+                android:id="@+id/etAnswer22"
+                android:hint="000"
+                android:layout_width="wrap_content"
+                android:background="@color/colorWhite"
+                android:layout_height="28dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@+id/etAnswer2Drob"
+                android:inputType="number"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llQuestion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_question_txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                tools:text="What do you choose?" />
+
+            <EditText
+                android:id="@+id/etAnswer3"
+                android:hint="000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:textSize="35dp"
+                android:background="@color/colorWhite"
+                android:inputType="number"/>
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/rlQuestionFraction3"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+
+            <TextView
+                android:id="@+id/tvQuestionDrob31"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestionDrob311"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="14dp"
+                android:text="---"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestionDrob312"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestion3znak"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="77dp"
+                android:layout_marginTop="14dp"
+                android:text="+"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestionDrob32"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+
+            <TextView
+                android:id="@+id/tvQuestionDrob321"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="137dp"
+                android:layout_marginTop="14dp"
+                android:text="---"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestion322"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="14dp"
+                android:text="="
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/etAnswer3Drob"
+                android:hint="000"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="230dp"
+                android:background="@color/colorWhite"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="29dp"
+                android:layout_toEndOf="@+id/etAnswer3Drob"
+                android:text="-------------"
+                android:textColor="@color/colorWhite"
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/etAnswer31"
+                android:hint="000"
+                android:textAlignment="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:background="@color/colorWhite"
+                android:layout_alignTop="@+id/tvQuestionDrob321"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/etAnswer3Drob"
+                android:inputType="number"/>
+
+
+            <EditText
+                android:id="@+id/etAnswer32"
+                android:hint="000"
+                android:layout_width="wrap_content"
+                android:background="@color/colorWhite"
+                android:layout_height="28dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@+id/etAnswer3Drob"
+                android:inputType="number"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llQuestion4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_question_txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                tools:text="What do you choose?" />
+
+            <EditText
+                android:id="@+id/etAnswer4"
+                android:hint="000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:textSize="35dp"
+                android:background="@color/colorWhite"
+                android:inputType="number"/>
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/rlQuestionFraction4"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+
+            <TextView
+                android:id="@+id/tvQuestionDrob41"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestionDrob411"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="14dp"
+                android:text="---"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestionDrob412"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestion4znak"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="77dp"
+                android:layout_marginTop="14dp"
+                android:text="+"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestionDrob42"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+
+            <TextView
+                android:id="@+id/tvQuestionDrob421"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="137dp"
+                android:layout_marginTop="14dp"
+                android:text="---"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tvQuestion422"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="14dp"
+                android:text="="
+                android:textColor="@color/colorWhite"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/etAnswer4Drob"
+                android:hint="000"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="230dp"
+                android:background="@color/colorWhite"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="29dp"
+                android:layout_toEndOf="@+id/etAnswer4Drob"
+                android:text="-------------"
+                android:textColor="@color/colorWhite"
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/etAnswer41"
+                android:hint="000"
+                android:textAlignment="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:background="@color/colorWhite"
+                android:layout_alignTop="@+id/tvQuestionDrob421"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/etAnswer4Drob"
+                android:inputType="number"/>
+
+
+            <EditText
+                android:id="@+id/etAnswer42"
+                android:hint="000"
+                android:layout_width="wrap_content"
+                android:background="@color/colorWhite"
+                android:layout_height="28dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@+id/etAnswer4Drob"
+                android:inputType="number"/>
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/bnext"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="248dp"
+            android:layout_marginStart="150dp"
+            android:background="@drawable/btntitle1"
+            android:text="Next"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>
